@@ -1,0 +1,39 @@
+.card-detail {
+    margin-top: 20px;
+    padding: 10px;
+    .breadcumb {
+        margin-bottom: 20px;
+    }
+    .series-img {
+        width: 250px;
+        height: 300px;
+    }
+    .season-details {
+        .season-dropdown {
+            min-width: 130px;
+        }
+        .season-info {
+            margin-top: 20px;
+            .key {
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .value {
+                font-size: 13px;
+                color: #909090;
+            }
+        }
+    }
+    .details {
+        padding: 0 10px;
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .description {
+            font-size: 15px;
+            color: #909090;
+            padding: 0 0 10px 0;
+        }
+    }
+}
